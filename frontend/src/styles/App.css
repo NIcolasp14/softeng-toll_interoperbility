@@ -1,0 +1,14 @@
+
+.appContainer {
+  background-color: #292627;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background: linear-gradient(90deg, rgba(103, 255, 154, 0.541) 0%, rgb(255, 255, 255) 100%);
+  background: rgba(255, 255, 255, 0.993);
+  color: white;
+}
+

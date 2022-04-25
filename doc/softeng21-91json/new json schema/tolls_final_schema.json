@@ -1,0 +1,216 @@
+[
+{
+"schemaType": "Collection",
+"name": "Stations",
+"type": "ObjectId",
+"required": true,
+"unique": true,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": [],
+"fields": [
+{
+"schemaType": "Field",
+"name": "stationID",
+"type": "String",
+"required": true,
+"unique": true,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "stationProvider",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "stationName",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+}
+]
+},
+{
+"schemaType": "Collection",
+"name": "Vehicles",
+"type": "ObjectId",
+"required": true,
+"unique": true,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": [],
+"fields": [
+{
+"schemaType": "Field",
+"name": "vahicleID",
+"type": "String",
+"required": true,
+"unique": true,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "tagID",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "tagProvider",
+"type": "String",
+"required": true,
+"unique": 0,
+"defaultValue": "",
+"description": "",
+"index": 0
+},
+{
+"schemaType": "Field",
+"name": "providerAbbr ",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "licenseYear",
+"type": "Integer",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+}
+]
+},
+{
+"schemaType": "Collection",
+"name": "Passes",
+"type": "ObjectId",
+"required": true,
+"unique": true,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": [],
+"fields": [
+{
+"schemaType": "Field",
+"name": "passID",
+"type": "String",
+"required": true,
+"unique": true,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "timestamp",
+"type": "Date",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "stationsRef",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "vehicleRef",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "charge",
+"type": "Double",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "tagAbbr",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "originStatus",
+"type": "String",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+},
+{
+"schemaType": "Field",
+"name": "stationOperator",
+"type": "ObjectId",
+"required": true,
+"unique": false,
+"defaultValue": "",
+"description": "",
+"index": 0,
+"customProps": []
+}
+]
+}
+]

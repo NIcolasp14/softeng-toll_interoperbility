@@ -1,0 +1,62 @@
+.general {
+  height: 80vh;
+}
+
+.buttonScreenContainer {
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 12px;
+}
+
+
+.titleContainer {
+  width: 60%;
+  aspect-ratio: 6;
+  border-radius: 20px;
+  background-color: rgb(255, 183, 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 05px 0px;
+  margin-left: auto;
+  margin-right: auto;    
+  cursor: pointer;
+  border-radius: 05px;
+}
+
+
+.company {
+    width: 60%;
+    aspect-ratio: 6;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin: 05px 0px;
+    margin-left: auto;
+    margin-right: auto;    
+    cursor: pointer;
+    border-radius: 05px;
+}
+
+.company:hover {
+  transform: scale(1.02);
+  background-color: #000000;
+}
+
+
+
+
+

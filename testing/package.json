@@ -1,0 +1,24 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/Users/nicolas/DesktopSofteng_latest/backend/index.js",
+  "scripts": {
+    "start": "/Users/nicolas/DesktopSofteng_latest/backend/index.js",
+    "watch": "cross-env NODE_PATH=Softeng_latest nodemon",
+    "test1": "set NODE_ENV=/Users/nicolas/Desktop/Softeng_latest/backend && nodemon --exec mocha /Users/nicolas/Desktop/Softeng_latest/test-api/**_test.js --timeout 1000000",
+    "test2": "set NODE_ENV=/Users/nicolas/Desktop/Softeng_latest/backend && nodemon --exec mocha /Users/nicolas/Desktop/Softeng_latest/test-api/adminresetvehicles_atest.js --timeout 1000000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "jest": "^27.5.1",
+    "mocha": "^9.2.1",
+    "request": "^2.88.2",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
