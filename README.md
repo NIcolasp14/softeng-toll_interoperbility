@@ -1,6 +1,7 @@
-# Toll Interoperability 
+# Toll Interoperability
 ## Software Engineering Project
 The goal of this project is to develop a software that will calculate the debt settlement between 7 toll operators, for a specific time period.
+
 
 ## Tech stack  
 MERN stack
@@ -35,7 +36,7 @@ npm install --save-dev jsdoc       (optional)(locally)
 In backend: 
 <pre>
 * npm init (to create packages)   
-* In package.json, in test:…, we added "start":"nodemon index.js"  
+* In package.json, in test:…, I added "start":"nodemon index.js"  
 (in order to use "npm start" to start the application with nodemon)    
 * In order to set up https server(cert+key)  
 openssl req -nodes -new -x509 -keyout server.key -out server.cert
@@ -144,10 +145,10 @@ Saves the technologies and their versions that are being used in the project.
 Same but with more details.
 
 **node_modules:**  
-The code of the modules that we have downloaded.
+The code of the modules that I have downloaded.
 
 **models:**  
-Implements the models (Passes.js, Stations.js, Vehicles.js) of the json NoSQL shema (can be found in doc) that we designed for the app.
+Implements the models (Passes.js, Stations.js, Vehicles.js) of the json NoSQL shema (can be found in doc) that I designed for the app.
 
 **MongoDB:**  
 Contains connect-verify.js that verifies database's connection.
@@ -167,7 +168,7 @@ json dumps(backups of each collection)
 
 ## REST API
 **controllers:**  
-Contains the admin and users' controllers. Essentially, here we implement the logic of the API. 
+Contains the admin and users' controllers. Essentially, here I implement the logic of the API. 
 
 **routes:** All routes that are being used in the project, which are:  
 
@@ -190,7 +191,7 @@ Saves the technologies and their versions that are being used in the project.
 Same but with more details.
 
 **node_modules:**  
-The code of the modules that we have downloaded.
+The code of the modules that I have downloaded.
 
 
 ## Frontend  
