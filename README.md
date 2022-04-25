@@ -1,11 +1,5 @@
-# Toll Interoperability | Team TL21-91
+# Toll Interoperability 
 ## Software Engineering Project
-This project was created for the course of Software Engineering (NTUA). We were asked to make a system for toll interoperability.
-
-Software Engineering Team  
-- Πηγαδάς Νικόλαος el18445
-- Αγγέλης Γιώργος  el18030
-
 
 ## Tech stack  
 MERN stack
