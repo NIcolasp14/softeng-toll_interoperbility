@@ -1,5 +1,6 @@
 # Toll Interoperability 
 ## Software Engineering Project
+The goal of this project is to develop a software that will calculate the debt settlement between 7 toll operators, for a specific time period.
 
 ## Tech stack  
 MERN stack
@@ -10,7 +11,7 @@ MERN stack
 * Node js
 
 
-## How we set up the project  
+## How I set up the project  
 In terminal:  
 <pre>
 brew install node
