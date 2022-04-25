@@ -1,1 +1,0 @@
-Validation in operational controller
