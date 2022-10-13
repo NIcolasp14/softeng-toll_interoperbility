@@ -1,6 +1,8 @@
-# Toll Interoperability
+# Reverse Engineering Toll Interoperability Software (Developed in Greece in 2020)
 ## Software Engineering Project I
-The goal of this project is to develop a software that will calculate the debt settlement between 7 toll operators, for a specific time period.
+The goal of this project is to develop a software that will calculate the debt settlement between the 7 greek toll operators, for a specific time period. The inspiration behind the project was the newly developed toll interoperability project that was actually developed in Greece in 2020 with huge funding.  
+https://www.google.com/search?client=safari&rls=en&q=διαλειτουργικοτητα+διοδιων&ie=UTF-8&oe=UTF-8  
+https://www.hellastron.com/greek-toll-road-interoperability-improved-user-experience/  
 
 
 ## Tech stack  
